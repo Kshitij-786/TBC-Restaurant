@@ -1,0 +1,6 @@
+{
+  "name": "TBC - The Basement Cafe",
+  "description": "A premium, modern, highly animated restaurant website for TBC (The Basement Cafe), featuring a dark neon aesthetic, filterable menu, 24/7 operations, interactive maps, and private cryptographically anonymized customer reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
