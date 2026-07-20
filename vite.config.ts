@@ -2,6 +2,8 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig(() => {
   return {
@@ -19,4 +21,12 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
+  // https://vite.dev
+export default defineConfig({
+  base: '/TBC-Restaurant/', // ⚠️ ADD THIS EXACT LINE
+  plugins: [react()],
+})
+
 });
+
+
